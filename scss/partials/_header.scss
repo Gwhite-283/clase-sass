@@ -1,0 +1,74 @@
+html {
+    font-size: 62.5%;
+}
+
+/*GENERALES Y REUTIlIZABLES*/
+
+* {
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import '../var/variables';
+h1{
+    color: $new-color;
+}
+
+h2{
+    color: $new-color;
+}
+
+.site-header{
+    background-color: rgb(34, 33, 33);
+    color: white;
+    height: 20vh;
+    padding: 3rem 0rem;
+}
+
+.site-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            list-style: none;
+            margin: 1.5rem;
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+    }
+}
