@@ -17,3 +17,19 @@
         min-width: 80rem /2;
     }
 }
+
+@import '../var/variables';
+.grid-padre {
+    @if $bg == verano {
+        background-color: orange;
+        color: white;
+    }
+
+    @else if $bg == invierno {
+        background-color: aquamarine;
+    }
+
+    @else {
+        background-color: white;
+    }
+}
